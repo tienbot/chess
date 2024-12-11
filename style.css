@@ -1,0 +1,182 @@
+.page {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+.header__cotainer {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header__block {
+  background: url("./images/header_background-1920.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__block-logo {
+  padding-left: 349px;
+  padding-top: 26px;
+}
+
+.hourse_image {
+  width: 245px;
+  height: 36px;
+}
+
+.header__block-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 542px;
+  height: 444px;
+  margin-top: 124px;
+  margin-left: 348.5px;
+}
+
+.header__block-content-title {
+  font-family: Merriweather, Arial, Helvetica, sans-serif;
+  font-size: calc(36px + 24 * (100vw - 375px) / 1920);
+  font-weight: 400;
+  line-height: 66px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.header_title-up {
+  margin-bottom: 312px;
+}
+
+.header_title-center {
+  margin-left: 91px;
+}
+
+.header_title-down {
+  margin-left: 30px;
+}
+
+.header__block-content-text {
+  margin-top: 24px;
+  font-family: Golos Text, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  opacity: 0.8;
+}
+
+.header__block-content-buttons {
+  display: flex;
+  gap: 5vh;
+  margin-top: 40px;
+  font-family: Golos Text, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  text-align: center;
+}
+
+.buttons_left {
+  color: #fff;
+  width: 263px;
+  height: 72px;
+  background: #000;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.buttons_right {
+  border: 2px, solid, #1f1f1f;
+  width: 263px;
+  height: 72px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.buttons_left:hover {
+  cursor: pointer;
+  color: #000;
+  background: #fbce51;
+}
+
+.buttons_right:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+}
+
+@media (width < 905px) {
+  .header__block {
+    background: url("./images/header_background-375.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header__block-logo {
+    padding-left: 20px;
+    padding-top: 18px;
+  }
+
+  .hourse_image {
+    width: 213px;
+    height: 32px;
+  }
+
+  .header__block-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 160px;
+    margin-top: 62px;
+    margin-left: 20px;
+  }
+
+  .header__block-content-title {
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    font-size: calc(36px + 24 * (100vw - 375px) / 905);
+    line-height: 45px;
+  }
+
+  .header__block-content-text {
+    margin-top: 18px;
+    font-family: Golos Text, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+  }
+
+  .header__block-content-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 40px;
+    font-family: Golos Text, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: center;
+  }
+
+  .buttons_left {
+    color: #fff;
+    width: 355px;
+    height: 47px;
+    background: #000;
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+
+  .buttons_right {
+    border: none;
+    width: 355px;
+    height: 47px;
+    background: #fff;
+    border-radius: 50px;
+    transition: 0.5s;
+  }
+}

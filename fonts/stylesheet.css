@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('./Merriweather-Regular.eot');
+    src: local('Merriweather Regular'), local('Merriweather-Regular'),
+        url('./Merriweather-Regular.eot') format('embedded-opentype'),
+        url('./Merriweather-Regular.woff') format('woff'),
+        url('./Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Golos Text';
+	src: 
+		url('./golos-text_regular.woff2') format('woff2'),
+		url('./golos-text_regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
