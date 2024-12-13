@@ -124,6 +124,7 @@
 .blockTest{
   width: 200px;
   display: inline-block;
+  color: red;
 }
 
 
